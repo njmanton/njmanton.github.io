@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Plotly example</title>
+  </head>
+  <body>
+    <div id="pie"></div>
+    <div id="col"></div>
+    <p>Not real data</p>
+  </body>
+  <style>
+    #pie, #col {
+      float: left;
+    }
+  </style>
+
+  <script type="text/javascript">
+
+    var data = [{
+      values: [19, 26, 55],
+      labels: ['Student', 'Visitor', 'Spouse'],
+      type: 'pie'
+    }];
+
+    var layout = {
+      height: 400,
+      width: 500
+    };
+
+    Plotly.newPlot('pie', data, layout);
+
+    var trace1 = {
+      x: ['Student', 'Visitor', 'Spouse'],
+      y: [20, 14, 23],
+      name: 'Revoked',
+      type: 'bar'
+    };
+
+    var trace2 = {
+      x: ['Student', 'Visitor', 'Spouse'],
+      y: [12, 18, 29],
+      name: 'Awarded',
+      type: 'bar'
+    };
+
+    var data_bar = [trace1, trace2];
+
+    var layout_bar = {
+      barmode: 'stack',
+      height: 400,
+      width: 500
+    };
+
+    Plotly.newPlot('col', data_bar, layout_bar);
+
+  </script>
+  </html>
