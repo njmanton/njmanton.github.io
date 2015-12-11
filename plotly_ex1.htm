@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <title>Plotly example</title>
+  </head>
+  <body>
+    <div id="map"></div>
+  </body>
+  <style>
+    #map {
+      width: 100%;
+      height: 600px;
+    }
+  </style>
+  <script type="text/javascript">
+
+    var data = [{
+        type: 'scattergeo',
+        lat: [ 44.4127, 51.5072 ],
+        lon: [ 26.1025, 0.1275 ],
+        mode: 'lines',
+        line:{
+            width: 2,
+            color: 'blue'
+        }
+      },
+      {
+        type: 'scattergeo',
+        lat: [ 55.7500, 51.5072 ],
+        lon: [ 37.6167, 0.1275 ],
+        mode: 'lines',
+        line:{
+          width: 2,
+          color: 'red'
+        }
+      },
+      {
+        type: 'scattergeo',
+        lat: [ 64.1333, 51.5072 ],
+        lon: [ -21.9333, 0.1275 ],
+        mode: 'lines',
+        line:{
+          width: 2,
+          color: 'blue'
+        }
+      },
+      {
+        type: 'scattergeo',
+        lat: [ 52.665, 51.5072 ],
+        lon: [ -8.623, 0.1275 ],
+        mode: 'lines',
+        line:{
+          width: 2,
+          color: '#ff6900'
+        }
+      },
+      {
+        type: 'scattergeo',
+        lat: [ 40.4, 51.5072 ],
+        lon: [ -3.7167, 0.1275 ],
+        mode: 'lines',
+        line:{
+          width: 2,
+          color: 'blue'
+        }
+      }];
+
+    var layout = {
+      title: 'Differentiating Flights into London',
+      showlegend: false,
+      geo: {
+          scope: 'europe',
+          resolution: 50,
+          showland: true,
+          landcolor: 'rgb(90,176,90)',
+          countrycolor: '#777',
+          projection: {
+            type: 'robinson'
+          },
+        }
+    };
+
+    Plotly.newPlot('map', data, layout);
+
+
+  </script>
+</html>
