@@ -1,4 +1,5 @@
-import requests, re, bs4, csv
+# use requests and beautiful soup libraries
+import requests, bs4, csv
 
 scores = [] # list to hold scores
 baseUrl = 'http://film-quiz.com/'
@@ -39,7 +40,7 @@ S London = r | ur
 E London = h | ha
 '''
 
-# dicts for vanue codes
+# dicts for venue codes
 new_venues = {'ah': 1, 'ur': 2, 'ha': 3}
 old_venues = {'b': 1, 'r': 2, 'h': 3}
 
