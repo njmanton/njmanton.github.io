@@ -14,6 +14,8 @@ def extractRows(url, year, month, venue):
   '''
 
   rows = 0
+  prev_score = 0
+  rank = 1
   # get the url contents
   page = requests.get(url)
   # not all combinations are possible, so ignore 404s
@@ -24,11 +26,15 @@ def extractRows(url, year, month, venue):
 
     # assume scores are held in a table, with 1 header row
     for tr in soup.find_all('tr')[1:]:
+      rows += 1 # count of rows and ordinal position within table
       tds = tr.find_all('td')
       team  = tds[0].get_text().replace('\t', '')
       score = tds[1].get_text().replace('\t', '')
-      scores.append([year, month, venue, team, score])
-      rows += 1
+       # rank is same as position, unless the scores are the same
+      if score != prev_score: 
+        rank = rows
+      prev_score = score
+      scores.append([year, month, venue, team, score, rows, rank])
 
     print ('{0} [{1} rows]'.format(url, rows))
 
