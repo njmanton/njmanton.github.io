@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="./stats.js"></script>
+    <link rel="stylesheet" href="./main.css">
+    <title>YGNABS</title>
+  </head>
+  <body>
+    <div class="panels panel-0">
+      <h1>You're gonna need a bigger spreadsheet</h1>
+    </div>
+  	<div class="panels panel-1">
+  		<h2>Intro</h2>
+  		<p>With no January BBFQ and so no soundtracks to memorise, I thought I'd take a look at the history of previous results, all available on the BBFQ <a href="http://film-quiz.com/results.html">website</a>.</p>
+      <p>Some statistics from the last four years of quizzes:</p>
+      <ul>
+        <li><span id="quizzes">126</span> Quizzes</li>
+        <li><span id="n">2,735</span> Teams</li>
+        <li><span id="points">121,431.25</span> Points</li>
+        <li><span id="scores-overall-max">67.5 points Highest Score</span></li>
+        <li><span id="scores-overall-min">1 point Lowest Score</span></li>
+        <li><span id="winning-margin">12.5</span> points Biggest Winning Margin</li>
+      </ul>
+  	</div>
+  	<div class="panels panel-2">
+  		<h2>The Teams</h2>
+  		<p>A total of <span id="n">2,735</span> teams took part in <span id="quizzes">126</span> quizzes. North London generally has the biggest quizzes, averaging 25 teams (vs. an overall average of 22). There's a bit of an uptick in North London after 2013, which I guess corresponds to the move to the Assembly House.</p>
+      <div id="map" style="width: 80%; min-height: 400px"></div>
+      <h3>Team Names</h3>
+      <p>Of the 2,735 teams, there are <span id="n_unique">1,776</span> different team names. Obviously this still masks a lot of slightly different spellings, typos etc. I had a crack at grouping teams that appeared more five or more times into 'franchises' &ndash; appreciating this is really subjective (see <a href="#notes">notes</a>). There are 74 franchises which together make up about 40% of all teams. <i>V for Vienetta</i> have appeared the most times (41).</p>
+      <p>There's a big variation in size of team names, from 2 to 131 characters:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Length</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>131</td>
+            <td><i><span id="data-names-long-0">Dear Santa, All We Would Like For Christmas Is To Not Come Last At The Bigger Boat. All Our Love, Charlie, Adrian, Hugo &amp; James xxx</span></i>*</td>
+          </tr>
+          <tr>
+            <td>103</td>
+            <td><i><span id="data-names-long-1">I Killed My Lesbian Wife With A Chainsaw, Hung Her On A Meathook And Now I Have A 3-Quiz Deal At Disney</span></i></td>
+          </tr>
+          <tr>
+            <td>102</td>
+            <td><i><span id="data-names-long-2">Paths Of A Full Metal Shining Eyes Wide Spartacus: Or How I Learned To Stop Worrying &amp; Love The Lyndon</span></i></td>
+          </tr>
+          <tr>
+            <td>100</td>
+            <td><i><span id="data-names-long-3">The Derek Zealander Centre For Kids Who Can't Read Good And Want To Learn To Do Other Stuff Good Too</span></i></td>
+          </tr>
+          <tr>
+            <td span="2">&hellip;</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Ed</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>C-</td>
+          </tr>
+        </tbody>
+      </table>
+      <p><small>* They didn't</small></p>
+      <p>Teams aren't afraid of a bit of bad language when it comes to picking names. In the list of team names we have: 31 fucks, 28 shits, 5 pisses, 3 wankers and 2 c*nts. There were 364 mentions of 'quiz'.</p>
+  	</div>
+  	<div class="panels panel-3">
+  		<h2>Scores</h2>
+      <h3>What does it take to win?</h3>
+      <p>At least 52.5 points &ndash; that was the lowest winning score. On average, teams need to be scoring 60 or more (out of 70) to win. East London and South London are quite similar, but it's a little harder to win in North London where the average winning score is 62.</p>
+      <div id="ave_win_scores" style="width: 50%;"></div>
+      <p>Average and winning scores are remarkably consistent. There's relatively little variation over time (so the quiz hasn't gotten easier or more difficult), or across venues.</p>
+      <div id="win_over_time"></div>
+      <div id="ave_over_time"></div>
+      <h3>Who's the 'winningest'?</h3>
+      <p>Four teams have won 10 or more quizzes, with <i>Mild Peril&hellip;</i> having the most overall victories, and <i>Cheadle in a Haystack</i> the best winning percentage of any team.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>Wins</th>
+            <th>Pct</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mild Peril and some Sexy Scenes</td>
+            <td>16</td>
+            <td>46%</td>
+          </tr>
+          <tr>
+            <td>Analrapists</td>
+            <td>12</td>
+            <td>39%</td>
+          </tr>
+          <tr>
+            <td>Milk was a Bad Choice</td>
+            <td>10</td>
+            <td>33%</td>
+          </tr>
+          <tr>
+            <td>Cheadle in a Haystack</td>
+            <td>10</td>
+            <td><i>59%</i></td>
+          </tr>
+        </tbody>
+      </table>
+  	</div>
+    <div class="panels panel-4">
+    	<a name="notes"></a><h2>Notes</h2>
+    	<p>The data was taken from each of the results pages ('random' <a href="http://film-quiz.com/2013/1310h.html">example</a>) on the BBFQ website. You can see the python script for scraping the data and the raw data itself, <a href="https://github.com/njmanton/njmanton.github.io/tree/master/bbfq">here</a>. Charts are created with <a href="https://plot.ly/">plotly</a>.</p>
+    	<p>Results were available from Jan 2012 (North London) or Apr 2012 (South &amp; East London) onwards. The old website had some results 2005-2012, but I founf the formats a bit variable so haven't included them in this page.</p>
+    	<p>To assign the 'franchises' I had to make some educated guesses &mdash; my basic criteria was any team name that appeared five or more times in the data. I combined  derived versions where they were obvious, e.g. <i>Analrapists</i> and <i>Christmas with the Analrapists</i>. I ignored some generic 'quiz' names like <i>Quizteam Aguilera</i> as I couldn't be sure they related to the same team. I'm sure there're plenty of teams who use very different team names each month, but I had no way of identifying them.</p>
+    </div>
+  </body>
+  <script type="text/javascript">
+
+  	Plotly.newPlot('map', data.traces.teams_time_series, data.layouts.ts, {staticPlot: true});
+    Plotly.newPlot('ave_win_scores', data.traces.win_hist, data.layouts.hist, {staticPlot: true});
+    
+    var layout3 = data.layouts.ts;
+    layout3.yaxis.range = [0, 70];
+
+    Plotly.newPlot('win_over_time', data.traces.scores_over_time, layout3, {staticPlot: true});
+
+  </script>
+</html>

@@ -1,0 +1,61 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css';
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	font-size: 16px;
+}
+
+p, li, td, th {
+	font-size: 1.2em;
+}
+
+td {
+	padding: 5px 10px;
+}
+
+th {
+	border-bottom: 1px solid #404040;
+}
+
+.panels {
+	min-height: 300px;
+	padding: 1em 2em;
+}
+
+h2, h3 {
+	color: #333;
+}
+
+.panel-0 {
+	background-color: #222;
+	color: #ddd;
+	min-height: auto;
+}
+
+.panel-1 {
+	background-color: #99cadf;
+	color: #404040;
+}
+
+.panel-2 {
+	background-color: #e09ea3;
+	color: #404040;
+}
+
+.panel-3 {
+	background-color: #98c3a6;
+	color: #404040;
+}
+
+.panel-4 {
+	background-color: #6d6b6d;
+	color: #222;
+}
+
+.panel-5 {
+	background-color: #eadad6;
+	color: #404040;
+}

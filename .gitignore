@@ -1,1 +1,2 @@
-bbfq/*.csv
+*.sublime*
+bbfq/scores.bck.csv
