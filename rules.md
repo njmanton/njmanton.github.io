@@ -20,7 +20,7 @@ _italicised_ items are additions to 2015 rules
 1.  The captains will decide between themselves before the start of the game, whether any special rules should be enforced for that game. For example, hitting the ball into fenced-off areas of the park, number of innings, distance between bases etc.
 2.  Where possible, there should be two umpires from the batting team. The first umpire will be behind home plate to call the pitching. The second umpire will be positioned outside the diamond to call plays on baserunning.
 3.  The batting team should refrain from calling plays (eg foul balls) as this may confuse the batter/fielding team.
-_4. For safety, due to the small size of the diamonds, only soft training softballs should be used_
+4. _For safety, due to the small size of the diamonds, only soft training softballs should be used_
 
 ### Basic Game
 
@@ -42,7 +42,7 @@ _4. For safety, due to the small size of the diamonds, only soft training softba
 
 ### Strikes and Balls
 
-1.  Pitching is the slow-pitch version and therefore each pitch _*must arc above the head of the batter and 'travel in an arc of 6 feet to 12 feet from the ground'.*_ There will be no flat or fast pitching.
+1.  Pitching is the slow-pitch version and therefore each pitch __**must arc above the head of the batter and 'travel in an arc of 6 feet to 12 feet from the ground'.**__ There will be no flat or fast pitching.
 2.  A good pitch must pass between the height of the batter's knee and shoulder as they stand at the home plate in a normal batting stance; it must pass across the home plate. The ball must arc above the head of the batter 6-12 feet off the ground as pitched. Fast, flat pitch is not allowed. Spin of the ball is allowed ~~in softball~~. This league plays the slow pitch rules.
 3.  A strike is either a result of a good pitch or a batter's swing which misses or sends the ball into foul territory.
 4.  A ball is called when the pitch is not 'good' (see bullet 2). If the pitcher hits the batter with the ball, then a ball is called. 4 balls called by the umpire allow the batter to walk to 1st base.
@@ -69,9 +69,9 @@ _4. For safety, due to the small size of the diamonds, only soft training softba
 1.  On a ball hit into fair territory, baserunners must attempt to reach the next base if all bases behind them are occupied_._
 2.  If the umpire calls a walk, the batter walks to 1st base and forces all baserunners to move forward one base. However, there is no force for a baserunner to advance if the base behind them is unoccupied.
 3.  On a force play, a baserunner will be out if their next base is tagged with the ball before they reach it.
-4.  When there is no force, A baserunner may elect to advance, but they will be out if they are _*more than halfway towards a base when that base is tagged by a fielder*_.
-5.  If the ball is caught in fair territory the force is removed. Baserunners must return to the base _*('tag-up')*_ they were at when the ball was pitched, and will be out if that base is tagged before they return
-_*6. Once a baserunner has tagged up, they cannot then advance on a caught ball.*_
+4.  When there is no force, A baserunner may elect to advance, but they will be out if they are __**more than halfway towards a base when that base is tagged by a fielder**__.
+5.  If the ball is caught in fair territory the force is removed. Baserunners must return to the base _('tag-up')_ they were at when the ball was pitched, and will be out if that base is tagged before they return
+6. __**Once a baserunner has tagged up, they cannot then advance on a caught ball.**__
 
 ### Tagging
 
@@ -84,5 +84,5 @@ _*6. Once a baserunner has tagged up, they cannot then advance on a caught ball.
 
 ### Overthrows
 
-1.  When a ball is overthrown into the foul area, baserunners may advance to the base for which they were ~~aiming~~ aiming _*at the time the ball enters foul territory*_.
+1.  When a ball is overthrown into the foul area, baserunners may advance to the base for which they were ~~aiming~~ heading __**at the time the ball enters foul territory**__.
 ~~2.  If the baserunner was more than halfway towards that base they can elect to attempt the next base (but at the risk of being tagged out)~~
