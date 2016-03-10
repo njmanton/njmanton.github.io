@@ -1,7 +1,9 @@
 ## League Rules
 
 __bold__ items are emphasis
+
 _italicised_ items are additions to 2015 rules
+
 ~~strikethrough~~ items are deletions from 2015 rules
 
 1.  [Match-specific rules]
@@ -28,7 +30,7 @@ _italicised_ items are additions to 2015 rules
 2.  A team must have a minimum of 4 women (batting and fielding during each innings). 3 runs will be awarded to the opposition for each female fewer than four per inning.
 3.  Length of games will be 4 innings to be agreed before start of play by the captains (dependent on weather). The minimum number of innings per game is 3.
 4.  At the start of the game, captains should agree upon the order of their team line up. Each team bats in a pre-defined order with a new inning starting with the batter who was next to bat in the previous inning. Teams are to keep their order of batting throughout the game. Change of batting order is illegal.
-5.  There will be no substitutions allowed to the batter order. Order of play is to be B-G-B or ~~G-B-G~~B-B-G-B-B or B-B-G-G-B-G. _If a team has fewer than 3 girls, the girls must bat more than once in the lineup. i.e. the order shown must be maintained_
+5.  There will be no substitutions allowed to the batter order. Order of play is to be B-G-B or ~~G-B-G~~ B-B-G-B-B or B-B-G-G-B-G. ___If a team has fewer than 3 girls, the girls must bat more than once in the lineup. i.e. the order shown must be maintained___
 6.  Substitutions for field play are allowed.
 7.  An inning is over after three batters are out.
 8.  No bunting allowed. A full swing must be taken by batters at each good pitch.
@@ -42,7 +44,7 @@ _italicised_ items are additions to 2015 rules
 
 ### Strikes and Balls
 
-1.  Pitching is the slow-pitch version and therefore each pitch __**must arc above the head of the batter and 'travel in an arc of 6 feet to 12 feet from the ground'.**__ There will be no flat or fast pitching.
+1.  Pitching is the slow-pitch version and therefore each pitch __must arc above the head of the batter and 'travel in an arc of 6 feet to 12 feet from the ground'.__ There will be no flat or fast pitching.
 2.  A good pitch must pass between the height of the batter's knee and shoulder as they stand at the home plate in a normal batting stance; it must pass across the home plate. The ball must arc above the head of the batter 6-12 feet off the ground as pitched. Fast, flat pitch is not allowed. Spin of the ball is allowed ~~in softball~~. This league plays the slow pitch rules.
 3.  A strike is either a result of a good pitch or a batter's swing which misses or sends the ball into foul territory.
 4.  A ball is called when the pitch is not 'good' (see bullet 2). If the pitcher hits the batter with the ball, then a ball is called. 4 balls called by the umpire allow the batter to walk to 1st base.
@@ -54,6 +56,7 @@ _italicised_ items are additions to 2015 rules
 2.  A ball that lands beyond 1st and 3rd base in fair territory and then rolls out is still considered fair.
 3.  If the ball is hit by the batter and goes behind home plate, it is a foul.
 4.  If the ball is hit by the batter and makes contact with any part of the batter it is a foul.
+5.  _If the ball is hit foul on two strikes or fewer and is caught, the batter is out **only** if the ball travels above the shoulder of the batter (i.e. if the ball just clips the bat and does not pop up, it is a foul and not an out_
 
 ### Running the bases
 
@@ -69,9 +72,9 @@ _italicised_ items are additions to 2015 rules
 1.  On a ball hit into fair territory, baserunners must attempt to reach the next base if all bases behind them are occupied_._
 2.  If the umpire calls a walk, the batter walks to 1st base and forces all baserunners to move forward one base. However, there is no force for a baserunner to advance if the base behind them is unoccupied.
 3.  On a force play, a baserunner will be out if their next base is tagged with the ball before they reach it.
-4.  When there is no force, A baserunner may elect to advance, but they will be out if they are __**more than halfway towards a base when that base is tagged by a fielder**__.
+4.  When there is no force, A baserunner may elect to advance, but they will be out if they are __more than halfway towards a base when that base is tagged by a fielder__.
 5.  If the ball is caught in fair territory the force is removed. Baserunners must return to the base _('tag-up')_ they were at when the ball was pitched, and will be out if that base is tagged before they return
-6. __**Once a baserunner has tagged up, they cannot then advance on a caught ball.**__
+6. ___Once a baserunner has tagged up, they cannot then advance.___
 
 ### Tagging
 
@@ -84,5 +87,5 @@ _italicised_ items are additions to 2015 rules
 
 ### Overthrows
 
-1.  When a ball is overthrown into the foul area, baserunners may advance to the base for which they were ~~aiming~~ heading __**at the time the ball enters foul territory**__.
-~~2.  If the baserunner was more than halfway towards that base they can elect to attempt the next base (but at the risk of being tagged out)~~
+1.  When a ball is overthrown into the foul area, baserunners may advance to the base for which they were ~~aiming~~ heading ___at the time the ball enters foul territory___.
+2.  ~~If the baserunner was more than halfway towards that base they can elect to attempt the next base (but at the risk of being tagged out)~~
